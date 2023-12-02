@@ -1,0 +1,17 @@
+{
+  "name": "advent-of-code-2023",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "solve:day_1": "node day_1/index.js",
+    "solve:day_2": "node day_2/index.js",
+    "solve:all": "node solve-all-puzzles.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.10.2"
+  }
+}
