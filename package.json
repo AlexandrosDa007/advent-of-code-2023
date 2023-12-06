@@ -9,6 +9,7 @@
     "solve:day_3": "node day_3/index.js",
     "solve:day_4": "node day_4/index.js",
     "solve:day_5": "node day_5/index.js",
+    "solve:day_6": "node day_6/index.js",
     "solve:all": "node solve-all-puzzles.js"
   },
   "keywords": [],

@@ -54,7 +54,7 @@ function solvePuzzleLevel1() {
     }
 }
 
-function solveForSeedLevel2() {
+function solvePuzzleLevel2() {
     try {
         const [seedMap, ...maps] = data.split('\n\n');
         const _seedNumberRanges = seedMap
@@ -139,6 +139,6 @@ function logPuzzleResults({ level1Result, level2Result }) {
 }
 
 const level1Result = solvePuzzleLevel1();
-const level2Result = solveForSeedLevel2();
+const level2Result = solvePuzzleLevel2();
 
 logPuzzleResults({ level1Result, level2Result });
